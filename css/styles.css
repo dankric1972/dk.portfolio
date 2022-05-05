@@ -1,0 +1,462 @@
+body {	
+  padding: 0;
+  margin: 0; 
+  bottom: 0; 
+  background: url('../img/pexels-photo-675937.jpeg') no-repeat center/cover;  
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Header banner */
+
+header {
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  background: #000099;
+  color: #ffffff;
+  padding-top: 10px;
+  height: 100px;
+  border-bottom: cyan groove 8px;
+  background: rgb(5, 0, 117,0.60);
+  box-shadow: 18px 18px 80px purple;
+}
+
+header a {
+  color: cyan;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Courier;
+  font-weight: bold;  
+  font-size: 18px;
+  padding: -40px;
+}
+
+header #brand h1 {
+    -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+  -moz-animation: glow 1.5s ease-in-out infinite alternate;
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+#timedate {
+  margin-right: 86%;
+  margin-top: 3%;
+  opacity: 0.8;  
+}
+
+/* Brand Name */
+
+header .highlight { 
+  margin-top: 25px;
+  margin-left: 30px;
+  color: #ff00ff;
+  font-family: "Arial";
+  font-size: 35px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+header .highlight_2 {
+   margin-top: -56px;  
+   margin-left: 290px;
+   font-family: Courier;
+   font-style: italic;
+   font-size: 25px;
+   color: cyan;   
+} 
+
+header .current a {
+  color: #ff00ff;
+  font-weight: bold;
+}
+
+/* Nav */
+
+header li { 
+  list-style: none;
+  margin-right: 5px;
+  padding: 20px 10px 0 25px; 
+  font-style: italic;
+  color: cyan;
+  }
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  white-space: nowrap;
+  margin-top: -58px;
+  margin-right: 40px;
+}
+
+a:hover {
+  color: pink; 
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+/* Effects */
+
+a:focus 
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+/* Scrolling Marquee */
+
+marquee {
+  position: fixed;
+  z-index: 9;
+  top: 90px;
+  right: 0px;
+  font-family: Courier;
+  font-size: 19px;
+  font-style: italic;
+  color: cyan;
+}
+
+/* Weather Widget */
+
+aside {	
+  display: hidden;
+	position: absolute;
+  margin: 120px 0px;
+  padding-bottom: 70px;	
+	width: 90px;
+}
+
+/* Headline & Article Boxes*/
+
+.container {
+  width: 100%; 
+  margin: 0 auto;  
+}
+
+.titlebar {  
+  position: absolute;
+  margin: 180px 650px;
+  text-align: center;  
+  background: #000099;
+  background: rgb(5, 0, 117,0.70);
+  box-shadow: 5px 5px 80px #FF0087;
+  width: 620px;
+  text-align: center;
+  padding: 5px 0px;
+  border-radius: 12px;
+  border:   #FF0087 groove 9px; 
+  font-family: Courier;
+  font-size: 11px;
+  color:  #59ff00;
+ }
+
+.paragraph { 
+  position: absolute;
+  top: 180px;  
+  color: #ffffff;
+  margin: 160px 570px;
+  padding: 15px 40px;
+  width: 35%;  
+  font-family: "franklin gothic book";
+  font-size: 20.5px;
+  color: white;
+  background: #000099;
+  border: magenta groove 9px;
+  background: rgb(5, 0, 117,0.70);
+  box-shadow: 5px 5px 80px cyan;
+  border-radius: 12px;  
+}
+
+/* Contact Me */
+
+ #contact-info {
+  margin-top: 65px;
+  margin-left: 130px;
+  color: cyan;
+}
+
+.contact-info a {
+  color: lightgreen;
+}
+
+#contact-form {
+  float: right;
+  list-style-position: inside;  
+  color: cyan;  
+  padding-top: 5px;
+  margin-top: 600px; 
+  margin-right: 1100px;  
+  
+}
+
+#career-title {
+  margin-left: 150px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#career-obj {
+  margin-left: 0px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#career-qc {
+  margin-left: 0px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#summary {
+  margin-left: 15px;
+}
+
+pre {
+  font-family: "franklin gothic book";
+  font-size: 20.5px;
+}
+	
+.demo {
+  color: cyan;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+/* Heading glow */
+
+  @-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #00e6e6, 0 0 30px #00e6e6, 0 0 40px #00e6e6, 0 0 50px #00e6e6, 0 0 60px #00e6e6, 0 0 70px #00e6e6;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px magenta, 0 0 40px magenta, 0 0 50px magenta, 0 0 60px magenta, 0 0 70px magenta, 0 0 80px magenta;
+  }
+}
+ 
+#contact a {
+	color: cyan;
+  text-decoration: none;
+  margin-left: 220px;  
+}
+
+a {
+   color: magenta;
+   text-decoration: none;
+  }
+/* Form fields */ 
+
+
+form {
+  margin-top: 120px;
+  margin-right: -80px;
+}
+
+h3 {
+  margin-right: 112px;
+  margin-top: -55px;
+  font-family: Courier;
+  font-size: 22px;  
+  text-decoration: underline;
+  color: cyan;
+  -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+  -moz-animation: glow 1.5s ease-in-out infinite alternate;
+  animation: glow 1.5s ease-in-out infinite alternate;
+  }
+
+label {
+  float: left;
+  font-family: Courier;
+  font-weight: bold;
+  color: cyan;
+  font-size: 18px;
+  width: 250px;
+  margin-bottom: 6px;
+}
+
+textarea {
+  float: left;
+  font-family: arial;
+  width: 500px;
+  height: 70px;
+  margin-right:-350px;
+  border-radius: 8px;
+}
+
+textarea::placeholder {
+  padding: 2px 0 0 3px;  
+}
+
+input {
+font-family: arial;
+width: 500px;
+margin-bottom: 20px;
+margin-right: -350px;
+border-radius: 8px;
+}
+
+input::placeholder {
+  padding: 6px;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: 180px;
+  color: pink;
+  background: darkblue;
+  border-radius: 18px;
+}
+
+img {
+  position: fixed;
+  z-index: 1;
+  width: 150px;
+  height: 55px;
+  margin-left: 750px;
+  margin-top: -55px;
+  background: rgb(5, 0, 117, 0.70);
+  box-shadow: 10px 2px 30px magenta;
+}
+
+footer {  
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  padding: 10px;
+  bottom: 0;
+  color: #ffffff;
+  background-color: #000099;
+  font-family: Courier;
+  font-size: 18px;
+  color: cyan;
+  text-align: center;
+  border-top: blue groove 8px;
+  background: rgb(5, 0, 117, 0.60);
+  box-shadow: -7px -7px 90px magenta;
+}
+
+/* Media Queries */
+
+
+@media (max-width: 480px) {
+
+.container {
+  margin-top: 210px;
+  margin-left: 60px;
+}
+
+header {
+  margin-top: -279px;  
+}
+
+header .highlight {
+  float: none;  
+  margin-top: -210px;
+  margin-left: 40px;
+} 
+
+header .highlight_2 {
+  float: none;
+  width: 20%;
+  margin-top: -15px;
+  margin-left: 80px;
+}
+
+ul {
+  display: inline-table;    
+  float: none;    
+  margin-top: 510px;
+  margin-left: 110px;         
+}
+  
+#timedate { 
+  float: none;    
+  margin-left: 150px;
+  margin-top: -100px;    
+}
+
+a .weatherwidget-io {
+  float: none;
+  margin: 100%;
+}
+
+.titlebar {
+  float: none;
+  margin-left: 15px;
+  margin-top: 50px;
+  padding: 5px 0px;
+}  
+  
+.paragraph {
+  position: relative;
+  float: none;
+  height: 45%;
+  width: 80%;
+  margin-right: 120px;  
+  margin-top: 280px;
+  padding: 10px 25px;      
+}  
+
+img {
+  margin-right: -10px;    
+}
+
+footer p {
+  text-align: left;    
+  }
+}
+
+@media (max-width: 1700px) {
+
+ul {
+  margin-top: -85px;
+  margin-right: 5px;     
+}
+
+#timedate {
+  margin-right: 73%;
+  margin-top: 8%;
+}
+
+.titlebar {
+  margin-left: 330px;
+  padding: 5px 0px;
+  width: 60%;
+}
+     
+.paragraph {      
+  margin-left: 300px;
+  padding: 10px 25px; 
+  width: 60%;
+}
+
+#contact-form {
+  float: right;
+  list-style-position: inside;  
+  color: cyan;  
+  padding-top: 5px;
+  margin-top: 600px; 
+  margin-right: 380px; 
+}   
+   
+img {
+  margin-left: 310px;
+  }
+}     
