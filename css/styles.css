@@ -180,7 +180,7 @@ aside {
   border: magenta groove 9px;
   background: rgb(5, 0, 117,0.70);
   box-shadow: 5px 5px 80px cyan;
-  border-radius: 12px;  
+  border-radius: 12px; 
 }
 
 /* Contact Me */
@@ -202,7 +202,6 @@ aside {
   padding-top: 5px;
   margin-top: 600px; 
   margin-right: 1100px;  
-  
 }
 
 #career-title {
